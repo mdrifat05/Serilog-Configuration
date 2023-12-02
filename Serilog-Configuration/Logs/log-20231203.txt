@@ -1,0 +1,58 @@
+2023-12-03 00:41:45.833 +06:00 [WRN] Getting weather forecast 12/03/2023 00:41:45
+2023-12-03 00:41:46.968 +06:00 [WRN] Getting weather forecast 12/03/2023 00:41:46
+2023-12-03 00:41:47.114 +06:00 [WRN] Getting weather forecast 12/03/2023 00:41:47
+2023-12-03 00:41:47.303 +06:00 [WRN] Getting weather forecast 12/03/2023 00:41:47
+2023-12-03 00:41:47.493 +06:00 [WRN] Getting weather forecast 12/03/2023 00:41:47
+2023-12-03 00:45:00.054 +06:00 [INF] Now listening on: https://localhost:7105
+2023-12-03 00:45:00.089 +06:00 [INF] Now listening on: http://localhost:5165
+2023-12-03 00:45:00.092 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-03 00:45:00.093 +06:00 [INF] Hosting environment: Development
+2023-12-03 00:45:00.099 +06:00 [INF] Content root path: F:\Clean Architecture\Serilog-Configuration\Serilog-Configuration
+2023-12-03 00:45:00.433 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7105/swagger/index.html - null null
+2023-12-03 00:45:00.683 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7105/swagger/index.html - 200 null text/html;charset=utf-8 253.1951ms
+2023-12-03 00:45:00.691 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7105/_vs/browserLink - null null
+2023-12-03 00:45:00.691 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7105/_framework/aspnetcore-browser-refresh.js - null null
+2023-12-03 00:45:00.699 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7105/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 8.6343ms
+2023-12-03 00:45:00.751 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7105/_vs/browserLink - 200 null text/javascript; charset=UTF-8 60.7779ms
+2023-12-03 00:45:00.832 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7105/swagger/v1/swagger.json - null null
+2023-12-03 00:45:00.923 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7105/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 91.3515ms
+2023-12-03 00:45:06.251 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7105/WeatherForecast - null null
+2023-12-03 00:45:06.262 +06:00 [INF] Executing endpoint 'Serilog_Configuration.Controllers.WeatherForecastController.Get (Serilog-Configuration)'
+2023-12-03 00:45:06.279 +06:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[Serilog_Configuration.WeatherForecast] Get() on controller Serilog_Configuration.Controllers.WeatherForecastController (Serilog-Configuration).
+2023-12-03 00:45:06.284 +06:00 [INF] Getting weather forecast 12/03/2023 00:45:06
+2023-12-03 00:45:06.293 +06:00 [INF] Executing ObjectResult, writing value of type 'Serilog_Configuration.WeatherForecast[]'.
+2023-12-03 00:45:06.312 +06:00 [INF] Executed action Serilog_Configuration.Controllers.WeatherForecastController.Get (Serilog-Configuration) in 26.4579ms
+2023-12-03 00:45:06.313 +06:00 [INF] Executed endpoint 'Serilog_Configuration.Controllers.WeatherForecastController.Get (Serilog-Configuration)'
+2023-12-03 00:45:06.313 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7105/WeatherForecast - 200 null application/json; charset=utf-8 62.6444ms
+2023-12-03 00:45:07.877 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7105/WeatherForecast - null null
+2023-12-03 00:45:07.879 +06:00 [INF] Executing endpoint 'Serilog_Configuration.Controllers.WeatherForecastController.Get (Serilog-Configuration)'
+2023-12-03 00:45:07.880 +06:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[Serilog_Configuration.WeatherForecast] Get() on controller Serilog_Configuration.Controllers.WeatherForecastController (Serilog-Configuration).
+2023-12-03 00:45:07.882 +06:00 [INF] Getting weather forecast 12/03/2023 00:45:07
+2023-12-03 00:45:07.884 +06:00 [INF] Executing ObjectResult, writing value of type 'Serilog_Configuration.WeatherForecast[]'.
+2023-12-03 00:45:07.886 +06:00 [INF] Executed action Serilog_Configuration.Controllers.WeatherForecastController.Get (Serilog-Configuration) in 3.3134ms
+2023-12-03 00:45:07.887 +06:00 [INF] Executed endpoint 'Serilog_Configuration.Controllers.WeatherForecastController.Get (Serilog-Configuration)'
+2023-12-03 00:45:07.888 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7105/WeatherForecast - 200 null application/json; charset=utf-8 11.7708ms
+2023-12-03 00:45:08.003 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7105/WeatherForecast - null null
+2023-12-03 00:45:08.005 +06:00 [INF] Executing endpoint 'Serilog_Configuration.Controllers.WeatherForecastController.Get (Serilog-Configuration)'
+2023-12-03 00:45:08.006 +06:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[Serilog_Configuration.WeatherForecast] Get() on controller Serilog_Configuration.Controllers.WeatherForecastController (Serilog-Configuration).
+2023-12-03 00:45:08.011 +06:00 [INF] Getting weather forecast 12/03/2023 00:45:08
+2023-12-03 00:45:08.012 +06:00 [INF] Executing ObjectResult, writing value of type 'Serilog_Configuration.WeatherForecast[]'.
+2023-12-03 00:45:08.013 +06:00 [INF] Executed action Serilog_Configuration.Controllers.WeatherForecastController.Get (Serilog-Configuration) in 1.9126ms
+2023-12-03 00:45:08.016 +06:00 [INF] Executed endpoint 'Serilog_Configuration.Controllers.WeatherForecastController.Get (Serilog-Configuration)'
+2023-12-03 00:45:08.017 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7105/WeatherForecast - 200 null application/json; charset=utf-8 14.2113ms
+2023-12-03 00:45:08.263 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7105/WeatherForecast - null null
+2023-12-03 00:45:08.265 +06:00 [INF] Executing endpoint 'Serilog_Configuration.Controllers.WeatherForecastController.Get (Serilog-Configuration)'
+2023-12-03 00:45:08.266 +06:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[Serilog_Configuration.WeatherForecast] Get() on controller Serilog_Configuration.Controllers.WeatherForecastController (Serilog-Configuration).
+2023-12-03 00:45:08.268 +06:00 [INF] Getting weather forecast 12/03/2023 00:45:08
+2023-12-03 00:45:08.269 +06:00 [INF] Executing ObjectResult, writing value of type 'Serilog_Configuration.WeatherForecast[]'.
+2023-12-03 00:45:08.270 +06:00 [INF] Executed action Serilog_Configuration.Controllers.WeatherForecastController.Get (Serilog-Configuration) in 1.7497ms
+2023-12-03 00:45:08.271 +06:00 [INF] Executed endpoint 'Serilog_Configuration.Controllers.WeatherForecastController.Get (Serilog-Configuration)'
+2023-12-03 00:45:08.273 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7105/WeatherForecast - 200 null application/json; charset=utf-8 10.0407ms
+2023-12-03 00:45:08.444 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7105/WeatherForecast - null null
+2023-12-03 00:45:08.445 +06:00 [INF] Executing endpoint 'Serilog_Configuration.Controllers.WeatherForecastController.Get (Serilog-Configuration)'
+2023-12-03 00:45:08.448 +06:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[Serilog_Configuration.WeatherForecast] Get() on controller Serilog_Configuration.Controllers.WeatherForecastController (Serilog-Configuration).
+2023-12-03 00:45:08.450 +06:00 [INF] Getting weather forecast 12/03/2023 00:45:08
+2023-12-03 00:45:08.450 +06:00 [INF] Executing ObjectResult, writing value of type 'Serilog_Configuration.WeatherForecast[]'.
+2023-12-03 00:45:08.452 +06:00 [INF] Executed action Serilog_Configuration.Controllers.WeatherForecastController.Get (Serilog-Configuration) in 1.9725ms
+2023-12-03 00:45:08.453 +06:00 [INF] Executed endpoint 'Serilog_Configuration.Controllers.WeatherForecastController.Get (Serilog-Configuration)'
+2023-12-03 00:45:08.454 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7105/WeatherForecast - 200 null application/json; charset=utf-8 10.5962ms

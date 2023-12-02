@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Sp4LfHZ5bUMy1rNKXsYQRjdUzBYCG9s+bM5lr5MpSNQ=",
+  "Source": "Serilog-Configuration",
+  "BasePath": "_content/Serilog-Configuration",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
